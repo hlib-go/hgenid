@@ -1,5 +1,5 @@
 // TODO 未测试
-package genid
+package hgenid
 
 // 18位编号，格式：8位日期+3位IP+7位当前节点递增（步长位ip）
 

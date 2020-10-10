@@ -1,4 +1,4 @@
-module github.com/hlib-go/hgenid
+module hgenid
 
 go 1.14
 

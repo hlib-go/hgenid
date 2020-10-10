@@ -1,4 +1,4 @@
-package genid
+package hgenid
 
 import (
 	"github.com/google/uuid"
