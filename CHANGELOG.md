@@ -1,6 +1,6 @@
 # Change log 
 
-## v0.0.3 
+## v0.0.3-beta
     [ Release Date: 2020-10-15 ]
 - [feature] 新增Rand32函数，生成32位随机字符串 
     
