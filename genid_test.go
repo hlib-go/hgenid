@@ -6,11 +6,17 @@ import (
 	"time"
 )
 
+// 单线程测试
 func TestGenId(t *testing.T) {
-	//g, _ := snowflake.NewNode(int64(1))
-	for i := 0; i < 1; i++ {
-		log.Println(GenId())
-		//log.Println(rand.Int63n(31))
+	var mp = make(map[string]bool)
+	for i := 0; i < 10*10000; i++ {
+		id := GenId()
+		if mp[id] {
+			t.Log("出现重复了 i=", i)
+			break
+		}
+		mp[id] = true
+		t.Log(id)
 	}
 }
 
