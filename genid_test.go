@@ -17,6 +17,7 @@ func TestGenId(t *testing.T) {
 		}
 		mp[id] = true
 		t.Log(id)
+		t.Log(time.Now().UnixNano())
 	}
 }
 
